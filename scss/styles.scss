@@ -1,0 +1,46 @@
+$skills-image: 100px;
+$projects-image: 400px;
+$central-width: 80%;
+$header-size: 28px;
+
+.skill-icon{
+	width: $skills-image;
+	height: $skills-image;
+	margin-bottom: 10px;
+	display: block;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.technology-list {
+	display: inline-flex;
+}
+
+#projects .container {
+	width: central-width;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#skillset .container {
+	width: central-width;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+.project-image {
+	width: $projects-image;
+	height: $projects-image;  
+	overflow: hidden;
+}
+
+#projects .project-title, #skillset .skills-title {
+	font-weight: bold;
+	font-size: $header-size;
+	text-align: center;
+}

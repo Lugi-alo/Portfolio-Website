@@ -1,0 +1,43 @@
+.skill-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  display: block;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.technology-list {
+  display: inline-flex;
+}
+
+#projects .container {
+  width: central-width;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#skillset .container {
+  width: central-width;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.project-image {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#projects .project-title, #skillset .skills-title {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
